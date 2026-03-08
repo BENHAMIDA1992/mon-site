@@ -1,25 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon premier site</title>
+    <title>Mon CV - [Asma Benhamida]</title>
     <style>
         body {
-            background-color: lightblue;
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         h1 {
-            color: navy;
-            border: 2px solid white;
-            padding: 20px;
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+        .title {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #34495e;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+        .contact {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .photo {
+            float: right;
+            margin-left: 20px;
+            border-radius: 50%;
+            width: 150px;
+            border: 3px solid #3498db;
+        }
+        @media (max-width: 600px) {
+            .photo {
+                float: none;
+                display: block;
+                margin: 0 auto 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Bonjour tout le monde !</h1>
-    <p>Ceci est mon site hébergé sur GitHub Pages.</p>
-    <p>Si vous voyez ce message avec un fond bleu, ça marche !</p>
+    <div class="container">
+       
+        <!-- <img src="CV Photo.jpg" alt="Ma photo" class="photo"> -->
+
+        <h1>[Asma Benhamida]</h1>
+        <div class="title">[Teacher and associate researcher]</div>
+
+        <div class="section">
+            <h2>À propos</h2>
+            <p>
+                [I am a teacher at ESILV and an associate researcher at the Laboratory of Analysis and Applied Mathematics at the University of Créteil. 
+                Prior to that, I served as a Temporary Teaching and Research Assistant at Paris Dauphine University-PSL, 
+                where I was a member of CEREMADE (Center for Research in Mathematics and Decision Making). 
+                I completed my PhD jointly at the Laboratory of Nonlinear Analysis and Geometry (LR21ES08) and the Laboratory of Analysis and Applied Mathematics (LAMA),
+                under the joint supervision of Prof. Habib Yazidi and Prof. Rejeb Hadiji.]
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Formation</h2>
+            <ul>
+                <li><strong>[PhD’s degree in Mathematical ]</strong> - [FST & UPEC], [2018-2021]</li>
+                <li><strong>[Master’s degree in Applied Mathematics Stochastic Analysis and Applications to Finance]</strong> - [Faculty of Sciences of Tunis], [ 2017-2019]</li>
+                <!-- Ajoutez autant de lignes que nécessaire -->
+                 <li><strong>[Bachelor’s degree in Pure Mathematics ]</strong> - [Faculty of Sciences of Tunis], [2012-2015]</li>
+            </ul>
+             
+        </div>
+
+        <div class="section">
+            <h2>Expérience</h2>
+            <ul>
+                <li><strong>[ teacher ]</strong> - [ESILV ], [October 2025-Now]</li>
+                <!-- -->
+                <li><strong>[Temporary Teaching and Research Assistant]</strong> - [CEREMADE, Paris Dauphine University-PSL], [2024-2025]</li>
+                <!-- Course: Analysis-2-L1, Analysis 4-L2 (Topology), Linear algebra and numerical methods-L2-->
+                <li><strong>[Temporary Teaching and Research Assistant]</strong> - [LAMA, Paris-Est (Créteil)], [2022-2024]</li>
+                <!-- Course: Calculus1 L1, Linear algebr-L1,  Functions of several variables, Probability and statistics-L 2  science of engineering,   Modular arithmetic-L1, 
+                 Rings and Groups-L2-->
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Publications / Projets</h2>
+            <ul>
+                <li>[ BENHAMIDA, Asma, HADIJI Rejeb and Habib YAZIDI, Existence results for elliptic equation involving polyharmonic operator and a critical growth, 
+Journal of Elliptic and Parabolic Equations, 2024, https://doi.org/10.1007/s41808-024-00304-5]</li>
+                <li>[BENHAMIDA, Asma et HADIJI, Rejeb, A system with weights and with critical Sobolev exponent. European Journal of Mathematics, 2023, vol. 9, no 3, p. 
+54.]</li>
+                 <li>[BENHAMIDA, Asma et YAZIDI, Habib. Solutions of a weighted p- Laplacian critical Sobolev problem. Journal of Mathematical Analysis and 
+Applications, 2020, vol. 487, no 1, p. 123926.]</li>
+                 <li>[ Existence and multiplicity of positive solutions for Biharmonic equation (en preparation)]</li>
+                 <li>[A p-Laplacian equation involving nearly critical (en preparation)]</li>
+                 <li>[ P-Laplacian for Neumann problem with weight and with critical nonlinearity in the boundary (en préparation)]</li>
+                 
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>
+                📧 Email : <a href="mailto:asma.benhamida2019@gmail.com ">votre.email@example.com</a><br>
+                <a href="mailto:asma.benhamida@u-pec.fr ">
+                🔗 LinkedIn : <a href="https://linkedin.com/in/votreprofil">linkedin.com/in/votreprofil</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
